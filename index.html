@@ -136,7 +136,7 @@ button[type="submit"]:active { transform:translateY(0); }
 </div>
 
 <script>
-const SHEET_URL = "https://script.google.com/macros/s/AKfycby1VSG-rF1otRFLYKXXyaOF1LNjohwyBK02lYoA7A-gkahk1ZjgGHfLiIp_UmqApFn3/exec";
+const SHEET_URL = "https://script.google.com/macros/s/AKfycbz_lBgUFru3vC-y8JAn6O1ynfJ8gcO38pIxj0Q3uQ2KeyBTp5Jp5zqAsX0i_r72vYsI/exec";
 
 function setAmount(val) {
   document.getElementById('amount').value = val;
@@ -189,7 +189,7 @@ document.getElementById('form').addEventListener('submit', function(e) {
     amount: amount + ' دج'
   };
 
-  if (SHEET_URL !== "https://script.google.com/macros/s/AKfycby1VSG-rF1otRFLYKXXyaOF1LNjohwyBK02lYoA7A-gkahk1ZjgGHfLiIp_UmqApFn3/exec") {
+  if (SHEET_URL !== "https://script.google.com/macros/s/AKfycbz_lBgUFru3vC-y8JAn6O1ynfJ8gcO38pIxj0Q3uQ2KeyBTp5Jp5zqAsX0i_r72vYsI/exec") {
     submitToSheet(data);
   }
 
