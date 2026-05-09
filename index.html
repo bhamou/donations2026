@@ -136,7 +136,7 @@ button[type="submit"]:active { transform:translateY(0); }
 </div>
 
 <script>
-const SHEET_URL = "PASTE_APPS_SCRIPT_URL_HERE";
+const SHEET_URL = "https://script.google.com/macros/s/AKfycby1VSG-rF1otRFLYKXXyaOF1LNjohwyBK02lYoA7A-gkahk1ZjgGHfLiIp_UmqApFn3/exec";
 
 function setAmount(val) {
   document.getElementById('amount').value = val;
@@ -189,7 +189,7 @@ document.getElementById('form').addEventListener('submit', function(e) {
     amount: amount + ' دج'
   };
 
-  if (SHEET_URL !== "PASTE_APPS_SCRIPT_URL_HERE") {
+  if (SHEET_URL !== "https://script.google.com/macros/s/AKfycby1VSG-rF1otRFLYKXXyaOF1LNjohwyBK02lYoA7A-gkahk1ZjgGHfLiIp_UmqApFn3/exec") {
     submitToSheet(data);
   }
 
